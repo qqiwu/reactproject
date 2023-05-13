@@ -1,0 +1,65 @@
+.header {
+    ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+
+        li {
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: #fff;
+
+
+            &:nth-child(1),
+            &:nth-child(3) {
+                width: 50px;
+            }
+
+            &:nth-child(2) {
+                flex: 1;
+
+                .searchBox {
+                    width: 100%;
+                    height: 70%;
+                    background-color: #fff;
+                    border-radius: 12px;
+                    color: #666;
+                    display: flex;
+
+                    .adm-image-img {
+                        width: 40px;
+                        margin-top: 4px;
+                        margin-left: 10px;
+                    }
+
+                    .divider {
+                        width: 12px;
+                        font-size: 24px;
+                        margin-left: 10px;
+                        color: #999;
+                    }
+
+                    .antd-mobile-icon {
+                        width: 18px;
+                        height: 18px;
+                        margin-top: 6px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .searchText {
+                        flex: 1;
+                        line-height: .31rem;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
+}

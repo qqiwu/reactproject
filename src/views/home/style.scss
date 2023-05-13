@@ -1,0 +1,14 @@
+.backTop {
+    position: fixed;
+    bottom: 0.6rem;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid #efefef;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}

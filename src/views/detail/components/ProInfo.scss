@@ -1,0 +1,30 @@
+.proInfo {
+    background-color: #fff;
+    padding: 15px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+
+    .priceBox {
+        span {
+            line-height: 32px;
+
+            &:nth-child(1) {
+                font-size: 24px;
+                color: #f66;
+            }
+
+            &:nth-child(2) {
+                float: right;
+            }
+        }
+    }
+
+    .proName {
+        font-weight: bold;
+        font-size: 0.14rem;
+
+        .adm-tag {
+            margin-right: 5px;
+        }
+    }
+}

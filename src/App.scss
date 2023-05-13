@@ -1,0 +1,61 @@
+// src/App.scss
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .header {
+      height: 0.44rem;
+      background-color: #f66;
+    }
+    .content {
+      flex: 1;
+      overflow: auto;
+    }
+    .footer {
+      // height: 50px;
+      height: 0.5rem;
+      background-color: #efefef;
+      user-select: none;
+  
+      ul { // ++++++++++++++++++++++++++++++++
+        width: 100%;
+        height: 100%;
+        display: flex;
+        a { // +++++
+          flex: 1;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: #333; // +++++
+          span {
+            font-size: 0.20rem;
+          }
+  
+          p {
+            font-size: 0.12rem;
+          }
+  
+        }
+      }
+    }
+  }
+  .landscape-tip {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media only screen and (orientation: landscape) { // 横屏
+    .landscape-tip  {
+      display: flex;
+    }
+  }

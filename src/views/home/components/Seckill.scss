@@ -1,0 +1,97 @@
+.seckillBox {
+    width: 96%;
+    height: 1.3rem;
+    background-color: #fff;
+    border-radius: 15px;
+    margin: 10px 2%;
+    .title_wrap {
+      width: 100%;
+      height: 0.36rem;
+  
+      background-size: cover;
+      overflow: hidden;
+      ul {
+        display: flex;
+        padding: 0 10px;
+        box-sizing: border-box;
+        li {
+          
+          &:nth-child(1) {
+            flex: 3;
+            display: flex;
+            &>span {
+              line-height: 0.36rem;
+              &:nth-child(2) {
+                color: #f66;
+              }
+              margin-right: 10px;
+            }
+            .myTimer {
+              padding-top: 0.08rem;
+              span {
+                line-height: 0.2rem;
+              }
+            }
+          }
+          &:nth-child(2) {
+            flex: 2;
+            display: flex;
+            justify-content: flex-end;
+            font-size: 0.12rem;
+            color: #f66;
+            line-height: 0.36rem;
+  
+            .van-icon {
+              font-size: 0.12rem;
+              transform-origin: left top;
+              transform: rotate(225deg);
+              line-height: 0.36rem;
+              margin-top: 0.34rem;
+              box-sizing: border-box;
+            }
+          }
+        }
+      }
+    }
+    .seckillList {
+      padding: 0 10px;
+      box-sizing: border-box;
+      margin-top: 0.1rem;
+      li {
+        float: left;
+        width: calc(100% / 6);
+        height: 0.94rem;
+        // background-color: #f66;
+        .adm-image-img {
+          width: 96%;
+          margin: 0 2%;
+          height: 0.54rem;
+          overflow: hidden;
+        }
+        p {
+          text-align: center;
+          color: #f66;
+          line-height: 0.3rem;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  
+  .colon {
+    display: inline-block;
+    margin: 0 2px;
+    font-weight: bold;
+    font-size: 0.16rem;
+    color: #ee0a24;
+  }
+  .block {
+    display: inline-block;
+    color: #fff;
+    width: 16px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #ee0a24;
+    border-radius: 4px;
+  }

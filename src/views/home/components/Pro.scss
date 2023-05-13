@@ -1,0 +1,54 @@
+.proList {
+    display: flex;
+    width: 96%;
+    margin: 10px 2% 15px;
+
+    .left {
+        width: 49%;
+        min-height: 300px;
+        margin-right: 1%;
+        // background-color: #f66;
+    }
+
+    .right {
+        width: 49%;
+        min-height: 300px;
+        margin-left: 1%;
+        // background-color: #f66;
+    }
+
+    ul {
+        li {
+            margin-top: 5px;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+
+            .itemImage {
+                width: 100%;
+
+                .van-image {
+                    min-height: 1.3rem;
+                }
+            }
+
+            .itemInfo {
+                padding: 10px;
+
+                .itemTitle {
+                    font-size: 0.14rem;
+                }
+
+                .itemPrice {
+                    color: #f66;
+                    font-size: 0.2rem;
+
+                    span {
+                        font-size: 0.14rem;
+                    }
+                }
+            }
+
+        }
+    }
+}
